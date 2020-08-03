@@ -44,7 +44,7 @@ function erreur() {
 }
 
 function recevoirTemperature() {
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${ville}&APPID=${secret}&units=metric`
+    const url = `http://api.openweathermap.org/data/2.5/weather?q=${ville}&appid=${secret}&units=metric`
 
         
         let requete = new XMLHttpRequest();
